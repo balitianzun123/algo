@@ -41,6 +41,7 @@ README 按以下顺序组织：
 ## 当前限制
 
 - 项目尚无完整的依赖清单。
+- 模拟 Trace 工具依赖仓库外部的 `impedance` 模块；当前环境会因该模块缺失而无法生成个人 Profile。
 - 从父目录运行 `python -m pytest algo/tests` 时，pytest 收集到 18 个测试，但因外部 `dao` 模块缺失而在收集阶段中止。
 - 根目录 `main.py` 依赖尚未完整接入，不作为推荐运行入口。
 - 被 `.gitignore` 排除的嵌套 `algo/` 是旧代码副本，不在 README 的项目结构中介绍。
