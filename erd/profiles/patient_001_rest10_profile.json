@@ -1,0 +1,64 @@
+{
+  "profile_id": "patient_001_rest10_1.0.0",
+  "subject_id": "patient_001",
+  "mode": "rest10",
+  "sampling_rate": 1000.0,
+  "channel_names": [
+    "FC3",
+    "FC4",
+    "C3",
+    "C4",
+    "CP3",
+    "CPz",
+    "CP4",
+    "Cz"
+  ],
+  "channel_baselines": {
+    "FC3": 135199.26777385361,
+    "FC4": 10516.404109145731,
+    "C3": 31009.96431570908,
+    "C4": 155994500.70672747,
+    "CP3": 413819.02010541304,
+    "CP4": 8505.954716510598
+  },
+  "action_threshold": 83.42819441317688,
+  "laterality_threshold": 0.0,
+  "threshold_source_action": "rest_loo_rest_score_q80",
+  "threshold_source_laterality": "fixed_zero",
+  "algorithm_version": "1.0.0",
+  "created_at": null,
+  "window_start_s": 0.5,
+  "window_end_s": 2.5,
+  "analysis_band_hz": [
+    8.0,
+    30.0
+  ],
+  "calibration_trial_ids": [
+    "patient_001_rest_cal_001",
+    "patient_001_rest_cal_002",
+    "patient_001_rest_cal_003",
+    "patient_001_rest_cal_004",
+    "patient_001_rest_cal_005",
+    "patient_001_rest_cal_006",
+    "patient_001_rest_cal_007",
+    "patient_001_rest_cal_008",
+    "patient_001_rest_cal_009",
+    "patient_001_rest_cal_010"
+  ],
+  "profile_schema_version": "1.0.0",
+  "extra": {
+    "required_rest_trials": 10,
+    "loo_rest_action_scores": [
+      80.61712964506398,
+      94.67245348562848,
+      -212.93582825017756,
+      -235.4161652453774,
+      -92.74705350387558,
+      -2982.4101324243225,
+      -2850473.2000647304,
+      -253814.93441517276,
+      -4649.744854607751,
+      98.08186537555714
+    ]
+  }
+}

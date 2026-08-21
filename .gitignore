@@ -1,0 +1,9 @@
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+pytest-cache-files-*/
+/logs/
+/artifacts/
+/algo/

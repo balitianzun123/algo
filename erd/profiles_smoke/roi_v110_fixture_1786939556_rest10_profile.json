@@ -1,0 +1,72 @@
+{
+  "profile_id": "roi_v110_fixture_1786939556_rest10_1.1.0",
+  "subject_id": "roi_v110_fixture_1786939556",
+  "mode": "rest10",
+  "sampling_rate": 128.0,
+  "channel_names": [
+    "FC3",
+    "FC4",
+    "C3",
+    "C4",
+    "CP3",
+    "CPz",
+    "CP4",
+    "Cz"
+  ],
+  "channel_baselines": {
+    "FC3": 32.567192411352664,
+    "FC4": 35.88925160485704,
+    "C3": 39.17347250264713,
+    "C4": 41.16172205790757,
+    "CP3": 43.23817830857797,
+    "CP4": 51.550774284188186
+  },
+  "action_threshold": 2.1437706890326758,
+  "laterality_threshold": 0.0,
+  "threshold_source_action": "rest_loo_rest_score_q80",
+  "threshold_source_laterality": "fixed_zero",
+  "action_thresholds_without_channel": {
+    "FC3": 2.2074145974034893,
+    "FC4": 3.5530470471778104,
+    "C3": 4.0336345400898255,
+    "C4": 3.587780728218985,
+    "CP3": 2.2152117090192545,
+    "CP4": 2.5277551515671517
+  },
+  "algorithm_version": "1.1.0",
+  "created_at": null,
+  "window_start_s": 0.5,
+  "window_end_s": 2.5,
+  "analysis_band_hz": [
+    8.0,
+    30.0
+  ],
+  "calibration_trial_ids": [
+    "roi_v110_fixture_1786939556_rest_cal_001",
+    "roi_v110_fixture_1786939556_rest_cal_002",
+    "roi_v110_fixture_1786939556_rest_cal_003",
+    "roi_v110_fixture_1786939556_rest_cal_004",
+    "roi_v110_fixture_1786939556_rest_cal_005",
+    "roi_v110_fixture_1786939556_rest_cal_006",
+    "roi_v110_fixture_1786939556_rest_cal_007",
+    "roi_v110_fixture_1786939556_rest_cal_008",
+    "roi_v110_fixture_1786939556_rest_cal_009",
+    "roi_v110_fixture_1786939556_rest_cal_010"
+  ],
+  "profile_schema_version": "1.0.0",
+  "extra": {
+    "required_rest_trials": 10,
+    "loo_rest_action_scores": [
+      1.7451069837910527,
+      -0.15486360206592845,
+      0.8636023877387865,
+      1.8812564034552532,
+      2.2830572688452997,
+      0.10615992340606255,
+      1.1508000046253497,
+      2.10894904407952,
+      3.2453070733686014,
+      0.20796508494428106
+    ]
+  }
+}
